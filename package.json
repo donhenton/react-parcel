@@ -1,0 +1,39 @@
+{
+    "name": "react-parcel",
+    "version": "1.0.0",
+    "description": "",
+    "main": "src/index.js",
+    "scripts": {
+        "clean": "rm -r dist",
+        "start": "parcel src/index.html",
+        "build": "parcel build src/index.html"
+    },
+    "keywords": [],
+    "author": "Mike Roeslein",
+    "license": "ISC",
+    "dependencies": {
+        "@emotion/core": "^10.0.16",
+        "@emotion/styled": "^10.0.15",
+        "parcel": "1.12.4",
+        "postal": "2.0.5",
+        "react": "^16.9.0",
+        "react-dom": "^16.9.0",
+        "react-router-dom": "^5.0.1"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.6.0",
+        "@babel/preset-env": "^7.6.0",
+        "@babel/preset-react": "^7.0.0",
+        "@emotion/babel-preset-css-prop": "^10.0.17",
+        "babel-eslint": "^10.0.3",
+        "babel-jest": "^24.9.0",
+        "babel-plugin-emotion": "^10.0.19",
+        "babel-plugin-transform-node-env-inline": "^0.4.3",
+        "babel-plugin-transform-runtime": "^6.23.0",
+        "parcel-bundler": "^1.12.3",
+        "whatwg-fetch": "^3.0.0"
+    },
+    "browserslist": [
+        "last 1 Chrome version"
+    ]
+}
